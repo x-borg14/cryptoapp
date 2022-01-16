@@ -1,0 +1,264 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: #000;
+    font-family: sans-serif ;
+    color: white;
+}
+nav{
+    margin: 20px;
+}
+.a1{
+    color: white;
+    margin-left: 150px;
+    font-size: x-large;
+    text-decoration: none;
+}
+.a2{
+    color: white;
+    padding-left: 20px;
+    font-size: large;
+    text-decoration: none;
+}
+.a3{
+    color: white;
+    padding-left: 20px;
+    font-size: large;
+    text-decoration: none;
+}
+.a4{
+    color: white;
+    padding-left: 20px;
+    font-size: large;
+    text-decoration: none;
+}
+.a5{
+    color: white;
+    padding-left: 20px;
+    font-size: large;
+    text-decoration: none;
+}
+.h21{
+    color: white;
+    margin-left: 50px;
+}
+.div2{
+    padding-top: 40px;
+    color:white;
+    margin-left: 170px;
+    font-size: xx-large;
+    margin-top: 120px;
+}
+.p1{
+    color: white;
+    margin-left: 170px;
+    font-size: 17px;
+    justify-content: left;
+    margin-top:-20px;
+}
+#more{
+    display: none;
+}
+.mybtn{
+    background-color: black;
+    color: white;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.input3{
+    background-color: black;
+    color: white;
+    border:2px solid greenyellow;
+    border-radius: 10px;
+    margin-left: 165px;
+    height: 50px;
+    width: 250px;
+}
+img{
+    margin-left: 700px;
+    height:400px;
+     width:400px;
+     margin-top: -200px;
+}
+h4{
+    margin-top: 5px;
+}
+.input4{
+    color: black;
+    border:2px solid greenyellow;
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 50px;
+    width: 250px;
+   /*background: url(news.png); */
+    background-size: 80px 80px;
+    font-size: large;
+    font-weight: bolder ;
+}
+h1{
+    margin-left: 165px;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.input5{
+    margin-left: 165px;
+    border-radius:25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width:80px
+}
+.input6{
+    margin-left: 10px;
+    border-radius:25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width:60px
+}
+.input7{
+    margin-left: 860px;
+    border-radius:25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    height: 40px;
+    width:80px
+}
+.div4{
+    margin-left: 165px;
+    padding-top: 20px;
+}
+.table1{
+    padding-top: 5px;
+    font-weight:bold;
+    font-size: x-large;
+}
+tr,td,th{
+    padding:15px;
+}
+.div5{
+    padding-top: 40px;
+    color:white;
+    margin-left: 170px;
+    font-size: xx-large;
+    margin-top: 50px;
+    font-weight: bold;
+    align-content: center;
+}
+.div6{
+    padding-top: 50px;
+}
+.input8{
+    height: 200px;
+    width:400px;
+    margin-left: 400px;
+    color: white;
+    border:2px solid greenyellow;
+    border-radius:25px;
+   /*  background: url(binance.png); */
+    background-size: 390px 200px;
+    background-color: black;
+}
+.input9{
+    height: 200px;
+    width:400px;
+    margin-left: 850px;
+    margin-top: -200px;
+    background-color: black;
+    color: white;
+    border:2px solid greenyellow;
+    border-radius:25px;
+    /* background: url(coinbase.jpg); */
+    background-size: 390px 200px;
+}
+.input10{
+    height: 200px;
+    width:400px;
+    margin-left: 400px;
+   margin-top: 40px;
+   background-color: black;
+   color: white;
+   border:2px solid greenyellow;
+   border-radius:25px;
+   /* background: url(kraken2.png); */
+   background-size: 380px 210px;
+}
+.input11{
+    height: 200px;
+    width:400px;
+    margin-left: 850px;
+    margin-top: -200px;
+    background-color: black;
+    color: white;
+    border:2px solid greenyellow;
+    border-radius:25px;
+    /* background: url(wazirx.png); */
+    background-size: 390px 210px;
+}
+.Ctable1{
+    padding-top: 5px;
+    font-weight:bold;
+    font-size: x-large;
+    border: 2px solid greenyellow;
+    border-radius:25px;
+    width: 85%;
+    text-align: center;
+}
+tbody>tr>:nth-child(3){
+    width:750px;
+    text-align:center;
+   }
+.Cinput2{
+    margin-left: 1px;
+    width: 80px;
+    height: 35px;
+    background-color: black;
+    border-radius: 25px;
+    margin-top:-35px;
+    border:2px solid greenyellow;
+}
+.Cinput2[value]{
+    color: white;
+}
+#confirm {
+    display: none;
+    background-color:black;
+    color:white;
+    border: 4px solid greenyellow;
+    border-radius: 15px;
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    left: 40%;
+    top: 40%;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+    left:450px;
+    top:170px;
+    font-size: x-large;
+ }
+ #confirm button {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 15px;
+    border: 2px solid greenyellow;
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+    cursor: pointer;
+    margin-top:7px;
+    margin-left: 545px;
+ }
+ #confirm .message {
+    text-align: left;
+ }
+   
+
+
+
+
+

@@ -1,0 +1,55 @@
+<div class="div1">
+    <nav>
+        <a href="coininfo.html" class="a1"><b>coininfo</b></a>
+        <a href="cryptocurrencies.html" class="a2">cryptocurrencies</a>
+        <a href="" class="a3">watchlist</a>
+        <a href="" class="a4">portfolio</a>
+        <a href="" class="a5">merchadise</a>
+    </nav>
+</div>
+<div id="confirm">
+    <button class="yes">X</button>
+    <div class=""> <b>Create an account</b> </div><br>
+   <div style="font-size:large">Gain access to additional features such as Watchlist and Portfolio tracking.</div><br>
+   <div style="font-size:large;" class="lbdiv1">Email Address</div>
+   <div class="lbdiv1"><input type="text" placeholder="Email Address" class="lbinput1"></div>
+   <div style="font-size:large;" class="lbdiv2">password</div>
+   <div><input type="password" placeholder="password" class="lbinput2"></div>
+   <div><input type="button" value="login" class="lbinput3"></div>
+ </div>
+<div class="div2"><b>Today's Cryptocurrency Prices by <br><h4>Market Cap</h4></b>
+</div>
+<div class="div3"><p class="p1">The global crypto market cap is $2.10T, a 3.28% increase over the last day.<span id="dots">...</span>
+    <span id="more"><br>The total crypto market volume over the last 24 hours is $94.03B, which<br> makes a 13.99% decrease.
+        The total volume in DeFi is currently $13.37B,<br> 14.21% of the total crypto market 24-hour volume. 
+        The volume of all stable <br>coins is now $72.19B, which is 76.78% of the total crypto market 24-hour <br>volume.
+        Bitcoin's price is currently, $48,760.74. Bitcoin’s dominance is currently<br> 43.76%, an increase of 0.15% over the day.
+        </span><input type="button" value="read more" class="mybtn"></p></div>
+        <div><input type="button" value="get started for free" class="input3">
+        <input type="button" value="news" class="input4">
+        </div>
+        <div>
+            <h1>Market</h1>      
+          <input type="button" value="favourites" class="input5">
+          <input type="button" value="all" class="input6">
+          <input type="button" value="price ↓" class="input7">
+        </div>
+        <div class="div4">
+            <table class="table1"> 
+                <tr *ngFor="let coin of cryptoCoins">
+                    <td>{{coin.name}}</td>
+                    <td>{{coin.symbol}}</td>
+                    <td>{{coin.price}}</td>
+                </tr>
+            </table>
+        </div>
+        <div class="div5" style="text-align: center;">
+            Explore different platforms
+        </div>
+        <div class="div6">
+            <input type= "button" value="" class="input8" >
+            <input type= "button" value="" class="input9"><br>
+            <input type= "button" value="" class="input10">
+            <input type= "button" value="" class="input11">
+        </div>
+ 
